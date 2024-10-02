@@ -33,7 +33,7 @@ Run TGTOD on FiGraph dataset under stationary setting:
 ```sh
 python main.py --dataset figraph --timeslot 1 --hid_dim 16 --num_parts 1 --graph_weight 0.9
 ```
-Run TGTOD on Elliptic dataset under non-stationary setting:
+Run TGTOD on FiGraph dataset under non-stationary setting:
 ```sh
 python main.py --dataset figraph --timeslot 1 --hid_dim 16 --num_parts 1 --graph_weight 0.9 --station False
 ```
